@@ -55,7 +55,9 @@ double tfactor=0.99999;      // reduction of temperature at each step, set to 1 
 
 double restforcefac=0.001;   // multiplier for restraint forces
 
-double branching0=20;  // branching percentage
+//double branching0=20;  // branching percentage
+//MJ
+double branching0=0.00043*mbps;  // number of branching points
 double branchingk=1000000; //branching force constant
 
 double rgyr0=0;            // target radius of gyration
@@ -74,6 +76,7 @@ double contactmin=2.0;     // minimum contact distance
 double contactk=1.0;       // force constant for contact restraint
 
 int    savefreq=25000;      // how often should we save the PDB?
+int    eneoutfreq=2500;     // how often should we writeout energy?
 
 double cutofflen;
 
@@ -667,9 +670,12 @@ double tgetQuickEnergy(Bond **rbond, Bead **rbead, int nring, Bond **sbond, Bead
      }   
   }
   double dbranchingcount=double(branchingcount);
+
+//MJ branching points number, not percentage
   double dnscoil=double(nscoil);
-  double branchpercentage=dbranchingcount/dnscoil*100;
-  double branchenergy=branchingk*(branchpercentage-branching0)*(branchpercentage-branching0);
+ double branchpercentage=dbranchingcount/dnscoil*100;
+//  double branchenergy=branchingk*(branchpercentage-branching0)*(branchpercentage-branching0);
+  double branchenergy=branchingk*(branchingcount-branching0)*(branchingcount-branching0);
   energy+=branchenergy;
 
   rgyr/=(nring+nscoil);
@@ -680,7 +686,7 @@ double tgetQuickEnergy(Bond **rbond, Bead **rbead, int nring, Bond **sbond, Bead
 
   if (check) {
     fprintf(stderr," quick energy: %lf, bond: %lf, ibond: %lf, rgyr: %lf, rmax: %lf, rest: %lf\n",energy,bondenergy,ibondenergy,rgyrenergy,rmaxenergy,rener);
-    fprintf(stderr," tgetQuickEnergy // Branching count: %d, percentage: %lf, energy: %lf\n",branchingcount,branchpercentage,branchenergy);
+    fprintf(stderr," tgetQuickEnergy // Branching count: %d, percentage: %lf, of: %d beads, energy: %lf\n",branchingcount,branchpercentage,nscoil,branchenergy);
   }
   return energy;
 }
@@ -819,7 +825,8 @@ double tgetSingleQuickEnergy(Bond **rbond, Bead **rbead, int nring, Bond **sbond
   double dbranchingcount=double(branchingcount);
   double dnscoil=double(nscoil);
   double branchpercentage=dbranchingcount/dnscoil*100;
-  double branchenergy=branchingk*(branchpercentage-branching0)*(branchpercentage-branching0);
+//  double branchenergy=branchingk*(branchpercentage-branching0)*(branchpercentage-branching0);
+  double branchenergy=branchingk*(branchingcount-branching0)*(branchingcount-branching0);
   energy+=branchenergy;
 
   return energy;
@@ -1204,7 +1211,7 @@ int mapBasePairs(int *bpmap, Bond **ringbond, int ndomain,
   natom=0;
   double bps=0.0;
   enterBond(ringbond[0],natom,bps,bpmap);
-  fprintf(stderr,"natom: %d bps %.2f\n",natom,bps);
+//  fprintf(stderr,"natom: %d bps %.2f\n",natom,bps); //MJ too much printing
 
   return 0;
 }  
@@ -1241,6 +1248,11 @@ int main(int argc, char **argv) {
  
   if (argc>6) {
     setchainlen=atoi(argv[6]);
+  }
+
+//MJ
+  if (argc>7) {
+    branching0=atoi(argv[7]);
   }
 
   cutofflen=setchainlen*2.0;
@@ -1414,7 +1426,7 @@ int main(int argc, char **argv) {
 
 
   // now let's do Monte Carlo sampling
-  double lastenergy=tgetQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,1);
+  double lastenergy=tgetQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,0); //MJ last parameter to 0 to not print so often
   fprintf(stderr,"initial energy: %10.5lf\n",lastenergy);
 
   double kT=initkT;
@@ -1432,7 +1444,7 @@ int main(int argc, char **argv) {
     double dbranchingcount=double(branchingcount);
     double dnchain=double(nchain);
     double branchpercentage=dbranchingcount/dnchain*100;
-    fprintf(stderr,"%d branching in %d branches. Percentage : %lf \n",branchingcount,nchain,branchpercentage);
+//    fprintf(stderr,"%d branching in %d branches. Percentage : %lf \n",branchingcount,nchain,branchpercentage); //MJ too much printing
 
     Bead *bb=0;
     Bond *bd=0;
@@ -1456,7 +1468,11 @@ int main(int argc, char **argv) {
     if (branchmove && !doremap && mctrial%10==0) {
       dobranch=1;
     }
-    if (!dobranch && !doremap && mctrial%10<6) { // 0 1 2 3 4 5 - move branch point
+
+//MJ
+//More often branch points moves
+//    if (!dobranch && !doremap && mctrial%10<6) { // 0 1 2 3 4 5 - move branch point
+    if (!dobranch && !doremap && mctrial%10<5) { // 0 1 2 3 4  - move branch point
       int ibead=random()%nchain;
       bb=chainbead[ibead];
 
@@ -1471,7 +1487,8 @@ int main(int argc, char **argv) {
       double n2=tgetSingleQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bb,bpmap,restlist,nrest);
       
       deltaE=n2-n1;
-    } else if (!dobranch && !doremap) {  //  6 7 8 - move ring point
+//    } else if (!dobranch && !doremap) {  //  6 7 8 - move ring point
+    } else if (!dobranch && !doremap && mctrial%10<7) {  //  5 6 - move ring point
 
       int ibead=random()%ndomain;
       bb=ringbead[ibead];
@@ -1486,7 +1503,8 @@ int main(int argc, char **argv) {
       bb->calcRgyrEner();
       double n2=tgetSingleQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bb,bpmap,restlist,nrest);
       deltaE=n2-n1;     
-    } else if (!doremap) {   // 9 - branch move attempt
+//    } else if (!doremap) {   // 9 - branch move attempt
+    } else if (!doremap) {   // 7, 8, 9 - branch move attempt
       Bond **takefrom=new Bond*[nchain];
       Bond **connectto=new Bond*[nchain];
       int ntakefrom=0;
@@ -1544,19 +1562,21 @@ int main(int argc, char **argv) {
     if (deltaE<=0 || exp(-(deltaE)/kT)>=rnum) {
       // accept
       lastenergy+=deltaE;
-      fprintf(stderr,"%d accepted: %10.5lf temp: %10.5lf\n",mctrial,lastenergy,kT);
-      if (bd!=0) {
-        fprintf(stderr," branch move successful\n");
-      }
-      if (doffset!=0) {
-        fprintf(stderr," new basemapoffset: %d\n",basemapoffset);
-      }
+//      fprintf(stderr,"%d accepted: %10.5lf temp: %10.5lf\n",mctrial,lastenergy,kT); //MJ too much printing
+
+//MJ too much printing
+//      if (bd!=0) {
+//        fprintf(stderr," branch move successful\n");
+//    }
+//      if (doffset!=0) {
+//        fprintf(stderr," new basemapoffset: %d\n",basemapoffset);
+//      }
       if (++naccept%regenlookupfreq==0) {
-         double nenergy=tgetQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,1);
+         double nenergy=tgetQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,0); //last parameter to 0 for less priniting
       } 
     } else {
       // reject
-      fprintf(stderr,"rejected %d with %10.5lf\n",mctrial,lastenergy+deltaE);
+//      fprintf(stderr,"rejected %d with %10.5lf\n",mctrial,lastenergy+deltaE);
       
       if (bb!=0) {
         bb->pos-=Vector(rx,ry,rz);
@@ -1575,12 +1595,16 @@ int main(int argc, char **argv) {
     }    
 
     if (mctrial%savefreq==0) {
-      fprintf(stderr,"saving conformation\n");
       //appendPDB(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,fname);
+      fprintf(stderr,"saving conformation\n");
+      dumpPDB(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,fname);
       dumpCOOR(ringbead,ndomain,chainbead,nchain,fname);
       dumpPSF(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,fname);
       dumpRestraints(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,fname);
+   }
 
+    if (mctrial%eneoutfreq==0) {
+      fprintf(stderr,"step: %d\n", mctrial);
       tgetQuickEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,1);
       double rgyr_nring,rgyr_nscoil,rgyr,averagering,averagescoil;
       getGeometry(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,&rgyr_nring,&rgyr_nscoil,&rgyr,&averagering,&averagescoil);  

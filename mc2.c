@@ -16,7 +16,7 @@
 #define SMALL_NUM 0.000001
 
 #define MAX_THREADS 1024
-int num_threads=8;
+int num_threads=4; //MJ was 8
 
 int check=0;
 
@@ -24,8 +24,7 @@ int mbps=816394;                      // number of basepairs
 int ndomain=400;                       // number of domains: 50-400
 
 double rfac=0.879;
-double cgbeadsize=5.0;
-double rise=0.340;
+double cgbeadsize=5.0; double rise=0.340;
 int cgbpbead=(int)(cgbeadsize/rise+0.5);
 int maxcgbp=int(mbps/cgbpbead)*1.1;
 
@@ -67,6 +66,7 @@ double contactmin=2.0;     // minimum contact distance
 double contactk=1.0;       // force constant for contact restraint
 
 int    savefreq=25000;      // how often should we save the PDB?
+int    eneoutfreq=2500;      // how often should we save ebnergy
 
 double cutofflen;
 
@@ -660,7 +660,7 @@ double tgetCutoffEnergy(Bond **rbond, Bead **rbead, int nring, Bond **sbond, Bea
   energy+=drgyr*drgyr*rgyrk/2.0;
 
   if (check) {
-    fprintf(stderr," cutoff energy: %lf, bond: %lf, ibond: %lf, rgyr: %lf, rmax: %lf, rest: %lf\n",energy,bondenergy,ibondenergy,rgyrenergy,rmaxenergy,rener);
+    fprintf(stderr,"cutoff energy: %lf, bond: %lf, ibond: %lf, rgyr: %lf, rmax: %lf, rest: %lf\n",energy,bondenergy,ibondenergy,rgyrenergy,rmaxenergy,rener);
   }
   return energy;
 }
@@ -1564,17 +1564,19 @@ int main(int argc, char **argv) {
     if (deltaE<=0 || exp(-(deltaE)/kT)>=rnum) {
       // accept
       lastenergy+=deltaE;
-      fprintf(stderr,"%d accepted: %10.5lf temp: %10.5lf\n",mctrial,lastenergy,kT);
-      if (doffset!=0) {
-        fprintf(stderr," new basemapoffset: %d\n",basemapoffset);
-      }
+
+//MJ too much printing
+      //fprintf(stderr,"%d accepted: %10.5lf temp: %10.5lf\n",mctrial,lastenergy,kT);
+      //if (doffset!=0) {
+      // fprintf(stderr," new basemapoffset: %d\n",basemapoffset);
+      //}
       if (++naccept%regenlookupfreq==0) {
          tgenerateLookup(ringbond,ndomain,chainbond,nchain,bondlookupinx,nbondlookup,bondlookup,cutofflen);
-         double nenergy=tgetCutoffEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bondlookupinx,nbondlookup,bondlookup,bpmap,restlist,nrest,1);
+         double nenergy=tgetCutoffEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bondlookupinx,nbondlookup,bondlookup,bpmap,restlist,nrest,0); //last argument changed to 0 for less printing
       } 
     } else {
       // reject
-      fprintf(stderr,"rejected %d with %10.5lf\n",mctrial,lastenergy+deltaE);
+      //fprintf(stderr,"rejected %d with %10.5lf\n",mctrial,lastenergy+deltaE);
       
       if (bb!=0) {
         bb->pos-=Vector(rx,ry,rz);
@@ -1590,7 +1592,12 @@ int main(int argc, char **argv) {
       dumpCOOR(ringbead,ndomain,chainbead,nchain,fname);
       dumpPSF(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,fname);
       dumpRestraints(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bpmap,restlist,nrest,fname);
+    }
 
+
+    if (mctrial%eneoutfreq==0) {
+      //fprint(stderr, "step: %d, Temp: %lf\n", mctrial, kT);
+      fprintf(stderr, "step: %d, Temp: %lf\n", mctrial, kT);
       tgetCutoffEnergy(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,bondlookupinx,nbondlookup,bondlookup,bpmap,restlist,nrest,1);
       double rgyr_nring,rgyr_nscoil,rgyr,averagering,averagescoil;
       getGeometry(ringbond,ringbead,ndomain,chainbond,chainbead,nchain,&rgyr_nring,&rgyr_nscoil,&rgyr,&averagering,&averagescoil);  

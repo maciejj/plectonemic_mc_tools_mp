@@ -1,0 +1,34 @@
+read 3069 restraints from 600_harmonic.restlist
+read 3154 restraints from 600_lower.restlist
+read 3054 atoms from m10_40_40_600_250_mc2test_run.pdb
+read coordinates
+setup complete
+natom: 54425 bps 816390.00
+ cutoff energy: 283827.127880, bond: 1078.788253, ibond: 246959.538721, rgyr: 0.000000, rmax: 0.000000, rest: 35788.800906
+initial energy: 283827.12788
+step: 2500, Temp: 287.722142
+cutoff energy: 283882.898499, bond: 6887.817608, ibond: 241038.322995, rgyr: 0.000000, rmax: 0.000000, rest: 35956.757896
+rgyr_nring: 118.069248 rgyr_nscoil: 228.774146 rgyr: 227.672350 averagering: 22.372199 averagescoil: 41.112432
+step: 5000, Temp: 280.618222
+cutoff energy: 286699.686802, bond: 12390.034985, ibond: 238181.262896, rgyr: 0.000000, rmax: 0.000000, rest: 36128.388921
+rgyr_nring: 118.171510 rgyr_nscoil: 228.885295 rgyr: 227.783268 averagering: 24.249460 averagescoil: 41.642768
+step: 7500, Temp: 273.689700
+cutoff energy: 289973.699940, bond: 18242.826730, ibond: 235522.179901, rgyr: 0.000000, rmax: 0.000000, rest: 36208.693309
+rgyr_nring: 118.797444 rgyr_nscoil: 229.089546 rgyr: 227.990080 averagering: 26.387460 averagescoil: 42.107823
+step: 10000, Temp: 266.932243
+cutoff energy: 295917.268267, bond: 22309.735172, ibond: 237231.432230, rgyr: 0.000000, rmax: 0.000000, rest: 36376.100864
+rgyr_nring: 119.768572 rgyr_nscoil: 229.215141 rgyr: 228.121280 averagering: 28.801233 averagescoil: 42.605115
+step: 12500, Temp: 260.341630
+cutoff energy: 297081.941282, bond: 26126.242006, ibond: 234191.746638, rgyr: 0.000000, rmax: 0.000000, rest: 36763.952637
+rgyr_nring: 119.759506 rgyr_nscoil: 229.455015 rgyr: 228.359085 averagering: 28.171674 averagescoil: 43.294898
+step: 15000, Temp: 253.913741
+cutoff energy: 298675.045109, bond: 30501.516467, ibond: 231331.831148, rgyr: 0.000000, rmax: 0.000000, rest: 36841.697494
+rgyr_nring: 118.071608 rgyr_nscoil: 229.500150 rgyr: 228.392332 averagering: 27.822518 averagescoil: 43.567101
+step: 17500, Temp: 247.644557
+cutoff energy: 306112.520193, bond: 34946.237596, ibond: 234111.339314, rgyr: 0.000000, rmax: 0.000000, rest: 37054.943283
+rgyr_nring: 117.050046 rgyr_nscoil: 229.530473 rgyr: 228.415517 averagering: 28.290450 averagescoil: 44.078786
+step: 20000, Temp: 241.530161
+cutoff energy: 309153.457452, bond: 37226.959054, ibond: 234651.349869, rgyr: 0.000000, rmax: 0.000000, rest: 37275.148529
+rgyr_nring: 115.978465 rgyr_nscoil: 229.538101 rgyr: 228.415922 averagering: 28.213166 averagescoil: 44.568345
+natom: 54425 bps 816390.00
+ cutoff energy: 309153.457452, bond: 37226.959054, ibond: 234651.349869, rgyr: 0.000000, rmax: 0.000000, rest: 37275.148529

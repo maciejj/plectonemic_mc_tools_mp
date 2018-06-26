@@ -1,0 +1,823 @@
+initial energy: 234256163527.40836
+step: 2500
+ quick energy: 59049177056.600891, bond: 21522.669327, ibond: 25795.397191, rgyr: 0.000000, rmax: 0.000000, rest: 129738.534372
+ tgetQuickEnergy // Branching count: 893, percentage: 29.628401, of: 3014 beads, energy: 59049000000.000000
+rgyr_nring: 64.021566 rgyr_nscoil: 155.988159 rgyr: 155.136377 averagering: 29.363996 averagescoil: 41.078438
+step: 5000
+ quick energy: 17689158976.074974, bond: 23310.763583, ibond: 25759.948654, rgyr: 0.000000, rmax: 0.000000, rest: 109905.362737
+ tgetQuickEnergy // Branching count: 783, percentage: 25.978766, of: 3014 beads, energy: 17689000000.000000
+rgyr_nring: 64.649196 rgyr_nscoil: 157.537648 rgyr: 156.677359 averagering: 31.148585 averagescoil: 41.468013
+step: 7500
+ quick energy: 2401174311.864734, bond: 30211.754022, ibond: 25249.968436, rgyr: 0.000000, rmax: 0.000000, rest: 118850.142276
+ tgetQuickEnergy // Branching count: 699, percentage: 23.191772, of: 3014 beads, energy: 2401000000.000000
+rgyr_nring: 64.793032 rgyr_nscoil: 158.247870 rgyr: 157.382906 averagering: 33.521633 averagescoil: 42.022118
+step: 10000
+ quick energy: 4171188.470655, bond: 32881.867574, ibond: 24835.907005, rgyr: 0.000000, rmax: 0.000000, rest: 113470.696076
+ tgetQuickEnergy // Branching count: 652, percentage: 21.632382, of: 3014 beads, energy: 4000000.000000
+rgyr_nring: 65.787065 rgyr_nscoil: 159.435609 rgyr: 158.566901 averagering: 33.862857 averagescoil: 42.458628
+step: 12500
+ quick energy: 181791.195140, bond: 40096.831183, ibond: 24163.966325, rgyr: 0.000000, rmax: 0.000000, rest: 117530.397632
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.941396 rgyr_nscoil: 160.404687 rgyr: 159.534822 averagering: 36.608977 averagescoil: 42.781695
+step: 15000
+ quick energy: 189904.921942, bond: 42497.291783, ibond: 24088.208586, rgyr: 0.000000, rmax: 0.000000, rest: 123319.421573
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.937172 rgyr_nscoil: 160.651841 rgyr: 159.780046 averagering: 36.828441 averagescoil: 43.087274
+step: 17500
+ quick energy: 188110.143383, bond: 45273.151850, ibond: 24367.210877, rgyr: 0.000000, rmax: 0.000000, rest: 118469.780656
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.535815 rgyr_nscoil: 160.471449 rgyr: 159.604349 averagering: 37.723938 averagescoil: 43.505051
+step: 20000
+ quick energy: 192998.465816, bond: 46574.937277, ibond: 24216.219946, rgyr: 0.000000, rmax: 0.000000, rest: 122207.308593
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.950543 rgyr_nscoil: 161.131140 rgyr: 160.261236 averagering: 38.112010 averagescoil: 43.987704
+step: 22500
+ quick energy: 194933.588313, bond: 50114.313827, ibond: 24326.739315, rgyr: 0.000000, rmax: 0.000000, rest: 120492.535171
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.977550 rgyr_nscoil: 161.284487 rgyr: 160.408036 averagering: 38.668672 averagescoil: 44.304486
+saving conformation
+step: 25000
+ quick energy: 194623.831831, bond: 53605.406173, ibond: 24810.982612, rgyr: 0.000000, rmax: 0.000000, rest: 116207.443046
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.299300 rgyr_nscoil: 162.045491 rgyr: 161.170446 averagering: 39.143528 averagescoil: 44.605182
+step: 27500
+ quick energy: 199654.233928, bond: 55163.610228, ibond: 24868.103811, rgyr: 0.000000, rmax: 0.000000, rest: 119622.519889
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.485357 rgyr_nscoil: 161.551133 rgyr: 160.680953 averagering: 39.653558 averagescoil: 44.884965
+step: 30000
+ quick energy: 198330.401067, bond: 59514.535951, ibond: 24631.782452, rgyr: 0.000000, rmax: 0.000000, rest: 114184.082664
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.422049 rgyr_nscoil: 161.537169 rgyr: 160.666744 averagering: 40.493436 averagescoil: 45.343678
+step: 32500
+ quick energy: 201588.064748, bond: 60802.478607, ibond: 24810.560398, rgyr: 0.000000, rmax: 0.000000, rest: 115975.025743
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.704840 rgyr_nscoil: 161.805518 rgyr: 160.934591 averagering: 40.312328 averagescoil: 45.825901
+step: 35000
+ quick energy: 207105.832995, bond: 65990.364136, ibond: 24558.018363, rgyr: 0.000000, rmax: 0.000000, rest: 116557.450496
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.103038 rgyr_nscoil: 162.695611 rgyr: 161.820007 averagering: 41.788824 averagescoil: 46.412254
+step: 37500
+ quick energy: 208796.231084, bond: 71514.415022, ibond: 25033.408262, rgyr: 0.000000, rmax: 0.000000, rest: 112248.407799
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.101922 rgyr_nscoil: 162.759840 rgyr: 161.883732 averagering: 42.513569 averagescoil: 46.907570
+step: 40000
+ quick energy: 204575.021769, bond: 70496.298685, ibond: 25101.271305, rgyr: 0.000000, rmax: 0.000000, rest: 108977.451780
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.823883 rgyr_nscoil: 163.144036 rgyr: 162.263401 averagering: 41.596310 averagescoil: 47.139404
+step: 42500
+ quick energy: 205300.468074, bond: 71686.641897, ibond: 25660.959026, rgyr: 0.000000, rmax: 0.000000, rest: 107952.867152
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.211152 rgyr_nscoil: 163.302062 rgyr: 162.422359 averagering: 40.399403 averagescoil: 47.518928
+step: 45000
+ quick energy: 215916.333969, bond: 75905.965125, ibond: 26005.778013, rgyr: 0.000000, rmax: 0.000000, rest: 114004.590831
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.334352 rgyr_nscoil: 163.675396 rgyr: 162.799105 averagering: 41.335706 averagescoil: 48.005503
+step: 47500
+ quick energy: 225186.204007, bond: 80780.633705, ibond: 26079.018743, rgyr: 0.000000, rmax: 0.000000, rest: 118326.551558
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.646270 rgyr_nscoil: 163.709281 rgyr: 162.834495 averagering: 41.082393 averagescoil: 48.311398
+saving conformation
+step: 50000
+ quick energy: 235439.004900, bond: 87866.521933, ibond: 25960.372104, rgyr: 0.000000, rmax: 0.000000, rest: 121612.110862
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.595531 rgyr_nscoil: 164.261596 rgyr: 163.382219 averagering: 43.151301 averagescoil: 48.726011
+step: 52500
+ quick energy: 233958.397420, bond: 93617.626808, ibond: 26002.922964, rgyr: 0.000000, rmax: 0.000000, rest: 114337.847647
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.791917 rgyr_nscoil: 164.640775 rgyr: 163.759557 averagering: 44.931128 averagescoil: 49.072414
+step: 55000
+ quick energy: 240140.839376, bond: 93589.605526, ibond: 26032.837514, rgyr: 0.000000, rmax: 0.000000, rest: 120518.396336
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.593819 rgyr_nscoil: 164.185823 rgyr: 163.301404 averagering: 43.990130 averagescoil: 49.328539
+step: 57500
+ quick energy: 245736.758912, bond: 97249.831619, ibond: 26428.309416, rgyr: 0.000000, rmax: 0.000000, rest: 122058.617877
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.837395 rgyr_nscoil: 164.196526 rgyr: 163.319028 averagering: 45.265752 averagescoil: 49.698060
+step: 60000
+ quick energy: 245304.812505, bond: 98426.712454, ibond: 26618.485841, rgyr: 0.000000, rmax: 0.000000, rest: 120259.614209
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.958813 rgyr_nscoil: 163.879338 rgyr: 163.005004 averagering: 44.731900 averagescoil: 49.951423
+step: 62500
+ quick energy: 243757.622442, bond: 103528.904288, ibond: 27122.302730, rgyr: 0.000000, rmax: 0.000000, rest: 113106.415423
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.862497 rgyr_nscoil: 164.376074 rgyr: 163.497318 averagering: 45.358706 averagescoil: 50.243474
+step: 65000
+ quick energy: 244361.261562, bond: 103054.706801, ibond: 27192.579337, rgyr: 0.000000, rmax: 0.000000, rest: 114113.975424
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.631444 rgyr_nscoil: 164.301600 rgyr: 163.427815 averagering: 44.930054 averagescoil: 50.603460
+step: 67500
+ quick energy: 242405.521090, bond: 106423.125392, ibond: 27131.257227, rgyr: 0.000000, rmax: 0.000000, rest: 108851.138472
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.440099 rgyr_nscoil: 163.958599 rgyr: 163.080701 averagering: 45.267155 averagescoil: 50.829390
+step: 70000
+ quick energy: 243889.121782, bond: 110304.344204, ibond: 26952.118285, rgyr: 0.000000, rmax: 0.000000, rest: 106632.659293
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.424616 rgyr_nscoil: 165.162573 rgyr: 164.275227 averagering: 45.888259 averagescoil: 51.103064
+step: 72500
+ quick energy: 244935.747922, bond: 113563.415929, ibond: 26641.474158, rgyr: 0.000000, rmax: 0.000000, rest: 104730.857835
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.038297 rgyr_nscoil: 165.263916 rgyr: 164.379241 averagering: 46.632870 averagescoil: 51.476972
+saving conformation
+step: 75000
+ quick energy: 251561.327904, bond: 118446.728153, ibond: 27000.204346, rgyr: 0.000000, rmax: 0.000000, rest: 106114.395405
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.807384 rgyr_nscoil: 165.328064 rgyr: 164.447265 averagering: 48.172139 averagescoil: 51.640825
+step: 77500
+ quick energy: 254878.559733, bond: 119040.293558, ibond: 27051.509374, rgyr: 0.000000, rmax: 0.000000, rest: 108786.756801
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.035256 rgyr_nscoil: 166.651698 rgyr: 165.756215 averagering: 47.461659 averagescoil: 52.046049
+step: 80000
+ quick energy: 251338.069562, bond: 120964.087688, ibond: 27128.842041, rgyr: 0.000000, rmax: 0.000000, rest: 103245.139833
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.473580 rgyr_nscoil: 166.552383 rgyr: 165.654529 averagering: 48.025560 averagescoil: 52.235762
+step: 82500
+ quick energy: 252655.234668, bond: 123749.147676, ibond: 27146.179407, rgyr: 0.000000, rmax: 0.000000, rest: 101759.907585
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.660221 rgyr_nscoil: 166.290675 rgyr: 165.395892 averagering: 47.286605 averagescoil: 52.552442
+step: 85000
+ quick energy: 253260.035610, bond: 126326.864000, ibond: 26971.352486, rgyr: 0.000000, rmax: 0.000000, rest: 99961.819124
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.555246 rgyr_nscoil: 166.411536 rgyr: 165.515229 averagering: 47.283825 averagescoil: 52.706563
+step: 87500
+ quick energy: 254143.205236, bond: 127607.159913, ibond: 27203.285459, rgyr: 0.000000, rmax: 0.000000, rest: 99332.759863
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.633650 rgyr_nscoil: 166.554396 rgyr: 165.657419 averagering: 46.540650 averagescoil: 52.974742
+step: 90000
+ quick energy: 264683.312782, bond: 127642.454328, ibond: 26501.792339, rgyr: 0.000000, rmax: 0.000000, rest: 110539.066115
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.295382 rgyr_nscoil: 167.014282 rgyr: 166.111861 averagering: 46.143780 averagescoil: 53.248064
+step: 92500
+ quick energy: 252388.355719, bond: 127351.377292, ibond: 25943.217201, rgyr: 0.000000, rmax: 0.000000, rest: 99093.761226
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.323106 rgyr_nscoil: 166.470719 rgyr: 165.572660 averagering: 45.565052 averagescoil: 53.418204
+step: 95000
+ quick energy: 255875.911892, bond: 127727.789484, ibond: 26163.095201, rgyr: 0.000000, rmax: 0.000000, rest: 101985.027206
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.260652 rgyr_nscoil: 166.956455 rgyr: 166.059870 averagering: 45.026002 averagescoil: 53.478424
+step: 97500
+ quick energy: 263076.972760, bond: 133316.177513, ibond: 26392.926607, rgyr: 0.000000, rmax: 0.000000, rest: 103367.868640
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.864162 rgyr_nscoil: 167.048018 rgyr: 166.154127 averagering: 45.118584 averagescoil: 53.922512
+saving conformation
+step: 100000
+ quick energy: 265818.116713, bond: 132899.980374, ibond: 26476.187503, rgyr: 0.000000, rmax: 0.000000, rest: 106441.948835
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.680669 rgyr_nscoil: 166.941259 rgyr: 166.047160 averagering: 43.672523 averagescoil: 54.271691
+step: 102500
+ quick energy: 268240.235201, bond: 137968.026012, ibond: 26227.122721, rgyr: 0.000000, rmax: 0.000000, rest: 104045.086469
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.232579 rgyr_nscoil: 167.758223 rgyr: 166.860888 averagering: 45.254344 averagescoil: 54.505983
+step: 105000
+ quick energy: 267066.580086, bond: 137209.645825, ibond: 26228.073625, rgyr: 0.000000, rmax: 0.000000, rest: 103628.860637
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.924946 rgyr_nscoil: 168.492275 rgyr: 167.587492 averagering: 44.054362 averagescoil: 54.578570
+step: 107500
+ quick energy: 273376.561345, bond: 139761.741245, ibond: 25921.841938, rgyr: 0.000000, rmax: 0.000000, rest: 107692.978162
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.042333 rgyr_nscoil: 168.543419 rgyr: 167.638899 averagering: 44.521342 averagescoil: 54.749026
+step: 110000
+ quick energy: 273043.685375, bond: 142539.016266, ibond: 25478.538326, rgyr: 0.000000, rmax: 0.000000, rest: 105026.130783
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.081724 rgyr_nscoil: 168.885105 rgyr: 167.972570 averagering: 43.614924 averagescoil: 55.024628
+step: 112500
+ quick energy: 273928.467630, bond: 146399.445134, ibond: 25588.482166, rgyr: 0.000000, rmax: 0.000000, rest: 101940.540330
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.401407 rgyr_nscoil: 168.417132 rgyr: 167.504456 averagering: 43.436823 averagescoil: 55.350293
+step: 115000
+ quick energy: 275486.493746, bond: 145432.234042, ibond: 26215.457841, rgyr: 0.000000, rmax: 0.000000, rest: 103838.801863
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.622182 rgyr_nscoil: 168.630102 rgyr: 167.716998 averagering: 42.840673 averagescoil: 55.603489
+step: 117500
+ quick energy: 277822.981137, bond: 148800.900760, ibond: 26167.700708, rgyr: 0.000000, rmax: 0.000000, rest: 102854.379670
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.283233 rgyr_nscoil: 168.440782 rgyr: 167.532807 averagering: 42.795382 averagescoil: 55.876316
+step: 120000
+ quick energy: 279608.018257, bond: 150588.611376, ibond: 26316.033417, rgyr: 0.000000, rmax: 0.000000, rest: 102703.373464
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.881726 rgyr_nscoil: 169.032510 rgyr: 168.123289 averagering: 42.983673 averagescoil: 56.215725
+step: 122500
+ quick energy: 275654.346535, bond: 152692.557962, ibond: 25968.907172, rgyr: 0.000000, rmax: 0.000000, rest: 96992.881401
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.015351 rgyr_nscoil: 168.943249 rgyr: 168.035471 averagering: 42.521063 averagescoil: 56.398033
+saving conformation
+step: 125000
+ quick energy: 280937.952174, bond: 153872.063522, ibond: 26060.127929, rgyr: 0.000000, rmax: 0.000000, rest: 101005.760724
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.312060 rgyr_nscoil: 169.212596 rgyr: 168.304392 averagering: 42.143805 averagescoil: 56.652388
+step: 127500
+ quick energy: 287047.364111, bond: 158389.998216, ibond: 26389.147627, rgyr: 0.000000, rmax: 0.000000, rest: 102268.218267
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.691565 rgyr_nscoil: 169.627015 rgyr: 168.717728 averagering: 42.440318 averagescoil: 56.943076
+step: 130000
+ quick energy: 290145.632087, bond: 163061.236054, ibond: 26237.044805, rgyr: 0.000000, rmax: 0.000000, rest: 100847.351228
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.732955 rgyr_nscoil: 170.261283 rgyr: 169.352962 averagering: 43.511649 averagescoil: 57.257477
+step: 132500
+ quick energy: 289762.197079, bond: 163924.453268, ibond: 26308.489281, rgyr: 0.000000, rmax: 0.000000, rest: 99529.254531
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.352386 rgyr_nscoil: 170.941273 rgyr: 170.025493 averagering: 44.171945 averagescoil: 57.418788
+step: 135000
+ quick energy: 285810.521032, bond: 163236.475688, ibond: 26636.946878, rgyr: 0.000000, rmax: 0.000000, rest: 95937.098465
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.502023 rgyr_nscoil: 170.747185 rgyr: 169.828133 averagering: 43.171683 averagescoil: 57.650787
+step: 137500
+ quick energy: 284456.764491, bond: 163424.783627, ibond: 26327.030942, rgyr: 0.000000, rmax: 0.000000, rest: 94704.949922
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.070570 rgyr_nscoil: 170.961812 rgyr: 170.044282 averagering: 42.924195 averagescoil: 57.829791
+step: 140000
+ quick energy: 295613.284259, bond: 169579.160960, ibond: 26542.003116, rgyr: 0.000000, rmax: 0.000000, rest: 99492.120183
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 74.609564 rgyr_nscoil: 171.382177 rgyr: 170.470113 averagering: 43.867411 averagescoil: 58.101443
+step: 142500
+ quick energy: 293538.640718, bond: 170167.902823, ibond: 26642.234778, rgyr: 0.000000, rmax: 0.000000, rest: 96728.503117
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.995677 rgyr_nscoil: 171.692488 rgyr: 170.774500 averagering: 43.143837 averagescoil: 58.303192
+step: 145000
+ quick energy: 290958.788177, bond: 166075.932238, ibond: 26544.397391, rgyr: 0.000000, rmax: 0.000000, rest: 98338.458549
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.058499 rgyr_nscoil: 171.512487 rgyr: 170.590612 averagering: 41.399026 averagescoil: 58.389004
+step: 147500
+ quick energy: 295673.070780, bond: 167659.215931, ibond: 26485.627435, rgyr: 0.000000, rmax: 0.000000, rest: 101528.227413
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.944182 rgyr_nscoil: 170.982463 rgyr: 170.064062 averagering: 41.026699 averagescoil: 58.562991
+saving conformation
+step: 150000
+ quick energy: 290653.201791, bond: 166816.950612, ibond: 26550.182498, rgyr: 0.000000, rmax: 0.000000, rest: 97286.068681
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.806966 rgyr_nscoil: 171.001840 rgyr: 170.082519 averagering: 40.579006 averagescoil: 58.755387
+step: 152500
+ quick energy: 295692.672564, bond: 169028.247867, ibond: 26727.465733, rgyr: 0.000000, rmax: 0.000000, rest: 99936.958964
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.007096 rgyr_nscoil: 170.781264 rgyr: 169.864781 averagering: 40.269496 averagescoil: 59.123692
+step: 155000
+ quick energy: 294007.063447, bond: 168946.633970, ibond: 26696.799088, rgyr: 0.000000, rmax: 0.000000, rest: 98363.630389
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.559091 rgyr_nscoil: 170.528087 rgyr: 169.616696 averagering: 38.462468 averagescoil: 59.285337
+step: 157500
+ quick energy: 299299.588276, bond: 171348.952983, ibond: 26713.247819, rgyr: 0.000000, rmax: 0.000000, rest: 101237.387474
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.679025 rgyr_nscoil: 171.214449 rgyr: 170.298389 averagering: 38.450198 averagescoil: 59.509524
+step: 160000
+ quick energy: 296177.305548, bond: 172410.769185, ibond: 26813.424633, rgyr: 0.000000, rmax: 0.000000, rest: 96953.111729
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.187089 rgyr_nscoil: 171.585077 rgyr: 170.663359 averagering: 38.067662 averagescoil: 59.777850
+step: 162500
+ quick energy: 293211.757894, bond: 175005.389416, ibond: 26632.836975, rgyr: 0.000000, rmax: 0.000000, rest: 91573.531503
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 74.208448 rgyr_nscoil: 170.942304 rgyr: 170.031380 averagering: 39.118360 averagescoil: 59.989007
+step: 165000
+ quick energy: 296421.533004, bond: 177121.453789, ibond: 26964.972838, rgyr: 0.000000, rmax: 0.000000, rest: 92335.106377
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.982975 rgyr_nscoil: 170.902747 rgyr: 169.990846 averagering: 38.753261 averagescoil: 60.276188
+step: 167500
+ quick energy: 299583.008707, bond: 181339.264316, ibond: 27259.597219, rgyr: 0.000000, rmax: 0.000000, rest: 90984.147171
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.702298 rgyr_nscoil: 170.852370 rgyr: 169.939264 averagering: 39.990627 averagescoil: 60.622935
+step: 170000
+ quick energy: 299586.945431, bond: 183497.716875, ibond: 27604.453237, rgyr: 0.000000, rmax: 0.000000, rest: 88484.775319
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.959388 rgyr_nscoil: 170.950715 rgyr: 170.032646 averagering: 40.179330 averagescoil: 60.932300
+step: 172500
+ quick energy: 309137.974037, bond: 183967.240224, ibond: 27532.994050, rgyr: 0.000000, rmax: 0.000000, rest: 97637.739763
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.336137 rgyr_nscoil: 171.340546 rgyr: 170.415970 averagering: 39.802010 averagescoil: 61.150902
+saving conformation
+step: 175000
+ quick energy: 308983.323456, bond: 187733.322197, ibond: 27397.131064, rgyr: 0.000000, rmax: 0.000000, rest: 93852.870194
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.968793 rgyr_nscoil: 171.683830 rgyr: 170.754564 averagering: 39.567282 averagescoil: 61.391527
+step: 177500
+ quick energy: 312051.234555, bond: 191989.437573, ibond: 27301.125856, rgyr: 0.000000, rmax: 0.000000, rest: 92760.671125
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.370061 rgyr_nscoil: 171.569905 rgyr: 170.643741 averagering: 41.473510 averagescoil: 61.613958
+step: 180000
+ quick energy: 313906.597977, bond: 196773.748829, ibond: 27192.288222, rgyr: 0.000000, rmax: 0.000000, rest: 89940.560926
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.616251 rgyr_nscoil: 171.729240 rgyr: 170.803212 averagering: 41.880611 averagescoil: 61.844689
+step: 182500
+ quick energy: 312865.683966, bond: 195915.524190, ibond: 27761.251926, rgyr: 0.000000, rmax: 0.000000, rest: 89188.907850
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.306308 rgyr_nscoil: 171.830573 rgyr: 170.907618 averagering: 40.460746 averagescoil: 61.968836
+step: 185000
+ quick energy: 316209.025008, bond: 199161.712732, ibond: 27836.902775, rgyr: 0.000000, rmax: 0.000000, rest: 89210.409501
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.819112 rgyr_nscoil: 171.858589 rgyr: 170.938307 averagering: 40.141420 averagescoil: 62.223311
+step: 187500
+ quick energy: 316521.535201, bond: 201676.172621, ibond: 27448.027624, rgyr: 0.000000, rmax: 0.000000, rest: 87397.334956
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 74.219985 rgyr_nscoil: 171.997504 rgyr: 171.078413 averagering: 40.552724 averagescoil: 62.277652
+step: 190000
+ quick energy: 319217.995012, bond: 203074.713956, ibond: 27386.488368, rgyr: 0.000000, rmax: 0.000000, rest: 88756.792687
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.982355 rgyr_nscoil: 171.869897 rgyr: 170.944822 averagering: 39.555950 averagescoil: 62.577003
+step: 192500
+ quick energy: 314648.066057, bond: 200610.180780, ibond: 27597.071004, rgyr: 0.000000, rmax: 0.000000, rest: 86440.814273
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.918601 rgyr_nscoil: 171.849788 rgyr: 170.918963 averagering: 37.774917 averagescoil: 62.717560
+step: 195000
+ quick energy: 317443.725242, bond: 200462.485400, ibond: 27551.662978, rgyr: 0.000000, rmax: 0.000000, rest: 89429.576864
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.215694 rgyr_nscoil: 171.875274 rgyr: 170.945892 averagering: 37.119505 averagescoil: 62.929923
+step: 197500
+ quick energy: 316681.169026, bond: 202361.180106, ibond: 27351.015904, rgyr: 0.000000, rmax: 0.000000, rest: 86968.973016
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.052209 rgyr_nscoil: 172.126012 rgyr: 171.193790 averagering: 37.323288 averagescoil: 63.060975
+saving conformation
+step: 200000
+ quick energy: 319973.760572, bond: 204339.026517, ibond: 27681.332666, rgyr: 0.000000, rmax: 0.000000, rest: 87953.401389
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.102122 rgyr_nscoil: 172.079012 rgyr: 171.147428 averagering: 36.089058 averagescoil: 63.279838
+step: 202500
+ quick energy: 319325.635741, bond: 203107.188412, ibond: 27885.115026, rgyr: 0.000000, rmax: 0.000000, rest: 88333.332304
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.061760 rgyr_nscoil: 172.164569 rgyr: 171.232102 averagering: 35.534758 averagescoil: 63.539735
+step: 205000
+ quick energy: 317215.553267, bond: 203913.707621, ibond: 27975.592810, rgyr: 0.000000, rmax: 0.000000, rest: 85326.252837
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.758671 rgyr_nscoil: 172.269932 rgyr: 171.340509 averagering: 34.833566 averagescoil: 63.792710
+step: 207500
+ quick energy: 322025.415727, bond: 206256.885312, ibond: 28014.004673, rgyr: 0.000000, rmax: 0.000000, rest: 87754.525742
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.650418 rgyr_nscoil: 172.394006 rgyr: 171.463021 averagering: 33.682596 averagescoil: 63.968879
+step: 210000
+ quick energy: 324403.387016, bond: 207822.954336, ibond: 28238.768927, rgyr: 0.000000, rmax: 0.000000, rest: 88341.663753
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.623913 rgyr_nscoil: 172.020733 rgyr: 171.086969 averagering: 33.859896 averagescoil: 64.156047
+step: 212500
+ quick energy: 322814.863759, bond: 208401.388739, ibond: 28467.805082, rgyr: 0.000000, rmax: 0.000000, rest: 85945.669938
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.013594 rgyr_nscoil: 172.369213 rgyr: 171.429437 averagering: 32.431177 averagescoil: 64.302170
+step: 215000
+ quick energy: 325554.224019, bond: 211106.809256, ibond: 28565.052112, rgyr: 0.000000, rmax: 0.000000, rest: 85882.362650
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.329373 rgyr_nscoil: 172.249176 rgyr: 171.306625 averagering: 31.899425 averagescoil: 64.498535
+step: 217500
+ quick energy: 323327.357550, bond: 210738.705615, ibond: 28740.321311, rgyr: 0.000000, rmax: 0.000000, rest: 83848.330623
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.981371 rgyr_nscoil: 172.239807 rgyr: 171.295462 averagering: 30.535428 averagescoil: 64.735490
+step: 220000
+ quick energy: 331333.159014, bond: 215505.263735, ibond: 29129.326374, rgyr: 0.000000, rmax: 0.000000, rest: 86698.568906
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.395605 rgyr_nscoil: 172.390101 rgyr: 171.446826 averagering: 30.459694 averagescoil: 64.852545
+step: 222500
+ quick energy: 332353.080094, bond: 217948.046190, ibond: 29051.130350, rgyr: 0.000000, rmax: 0.000000, rest: 85353.903555
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.663942 rgyr_nscoil: 172.424219 rgyr: 171.482128 averagering: 31.770257 averagescoil: 64.994773
+saving conformation
+step: 225000
+ quick energy: 333734.982212, bond: 220052.769121, ibond: 29281.072321, rgyr: 0.000000, rmax: 0.000000, rest: 84401.140770
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.344062 rgyr_nscoil: 172.481130 rgyr: 171.536880 averagering: 31.574533 averagescoil: 65.183127
+step: 227500
+ quick energy: 337156.836942, bond: 223970.679877, ibond: 29412.790221, rgyr: 0.000000, rmax: 0.000000, rest: 83773.366843
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.382292 rgyr_nscoil: 172.624465 rgyr: 171.673990 averagering: 31.894424 averagescoil: 65.516967
+step: 230000
+ quick energy: 334717.668588, bond: 224257.376783, ibond: 29400.156256, rgyr: 0.000000, rmax: 0.000000, rest: 81060.135549
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.354061 rgyr_nscoil: 172.532221 rgyr: 171.582301 averagering: 30.796837 averagescoil: 65.715776
+step: 232500
+ quick energy: 334473.863356, bond: 223137.090620, ibond: 29138.698081, rgyr: 0.000000, rmax: 0.000000, rest: 82198.074655
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.115520 rgyr_nscoil: 172.786630 rgyr: 171.833510 averagering: 32.243663 averagescoil: 65.702429
+step: 235000
+ quick energy: 335738.985339, bond: 223504.417747, ibond: 28908.045801, rgyr: 0.000000, rmax: 0.000000, rest: 83326.521791
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.910810 rgyr_nscoil: 172.766072 rgyr: 171.812032 averagering: 32.448430 averagescoil: 65.712552
+step: 237500
+ quick energy: 335316.476162, bond: 223521.364835, ibond: 28891.704565, rgyr: 0.000000, rmax: 0.000000, rest: 82903.406763
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.688396 rgyr_nscoil: 172.758979 rgyr: 171.803826 averagering: 31.974975 averagescoil: 65.739114
+step: 240000
+ quick energy: 335156.900748, bond: 223395.981981, ibond: 28631.353335, rgyr: 0.000000, rmax: 0.000000, rest: 83129.565432
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.973125 rgyr_nscoil: 172.646233 rgyr: 171.693433 averagering: 31.746027 averagescoil: 65.911213
+step: 242500
+ quick energy: 337523.632308, bond: 225399.650635, ibond: 28539.173934, rgyr: 0.000000, rmax: 0.000000, rest: 83584.807738
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.182106 rgyr_nscoil: 172.948254 rgyr: 171.994252 averagering: 33.088733 averagescoil: 65.960229
+step: 245000
+ quick energy: 335533.657840, bond: 224944.013476, ibond: 28058.696062, rgyr: 0.000000, rmax: 0.000000, rest: 82530.948303
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.685369 rgyr_nscoil: 173.454370 rgyr: 172.493911 averagering: 32.108088 averagescoil: 66.040154
+step: 247500
+ quick energy: 334592.900346, bond: 224820.623992, ibond: 28018.862963, rgyr: 0.000000, rmax: 0.000000, rest: 81753.413391
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.936256 rgyr_nscoil: 173.478435 rgyr: 172.513908 averagering: 31.501932 averagescoil: 66.095382
+saving conformation
+step: 250000
+ quick energy: 335190.267877, bond: 226760.552173, ibond: 27830.375746, rgyr: 0.000000, rmax: 0.000000, rest: 80599.339959
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.393602 rgyr_nscoil: 173.661267 rgyr: 172.692570 averagering: 32.003517 averagescoil: 66.158214
+step: 252500
+ quick energy: 335947.715699, bond: 226180.720644, ibond: 27697.585173, rgyr: 0.000000, rmax: 0.000000, rest: 82069.409881
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.875522 rgyr_nscoil: 173.716837 rgyr: 172.745082 averagering: 29.941206 averagescoil: 66.206513
+step: 255000
+ quick energy: 334557.868856, bond: 224015.184728, ibond: 27832.500359, rgyr: 0.000000, rmax: 0.000000, rest: 82710.183770
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.158066 rgyr_nscoil: 173.449544 rgyr: 172.481244 averagering: 29.647890 averagescoil: 66.169130
+step: 257500
+ quick energy: 336222.144260, bond: 226689.744419, ibond: 27959.134677, rgyr: 0.000000, rmax: 0.000000, rest: 81573.265165
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.639695 rgyr_nscoil: 173.407380 rgyr: 172.436765 averagering: 29.139763 averagescoil: 66.334680
+step: 260000
+ quick energy: 335639.544437, bond: 226650.323765, ibond: 27906.681829, rgyr: 0.000000, rmax: 0.000000, rest: 81082.538843
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.199779 rgyr_nscoil: 173.443883 rgyr: 172.470775 averagering: 29.560803 averagescoil: 66.438855
+step: 262500
+ quick energy: 338169.146459, bond: 227734.900415, ibond: 28102.382773, rgyr: 0.000000, rmax: 0.000000, rest: 82331.863271
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.639058 rgyr_nscoil: 173.463027 rgyr: 172.491990 averagering: 29.249753 averagescoil: 66.496712
+step: 265000
+ quick energy: 338085.721361, bond: 229502.260481, ibond: 28089.653602, rgyr: 0.000000, rmax: 0.000000, rest: 80493.807278
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.640012 rgyr_nscoil: 173.848192 rgyr: 172.869244 averagering: 29.354021 averagescoil: 66.665490
+step: 267500
+ quick energy: 338214.088811, bond: 231886.826947, ibond: 27750.666471, rgyr: 0.000000, rmax: 0.000000, rest: 78576.595392
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.205848 rgyr_nscoil: 174.135440 rgyr: 173.152187 averagering: 28.789275 averagescoil: 66.897132
+step: 270000
+ quick energy: 336310.089176, bond: 230625.375438, ibond: 27628.110050, rgyr: 0.000000, rmax: 0.000000, rest: 78056.603688
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.585548 rgyr_nscoil: 174.264240 rgyr: 173.276980 averagering: 28.612868 averagescoil: 66.834479
+step: 272500
+ quick energy: 334921.786426, bond: 230063.913718, ibond: 27494.446553, rgyr: 0.000000, rmax: 0.000000, rest: 77363.426155
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.604320 rgyr_nscoil: 174.096647 rgyr: 173.115657 averagering: 28.448051 averagescoil: 66.833731
+saving conformation
+step: 275000
+ quick energy: 335242.150161, bond: 230430.598983, ibond: 27113.052820, rgyr: 0.000000, rmax: 0.000000, rest: 77698.498359
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.109814 rgyr_nscoil: 174.410577 rgyr: 173.429745 averagering: 29.113184 averagescoil: 66.943631
+step: 277500
+ quick energy: 336968.384396, bond: 231744.002611, ibond: 27031.700094, rgyr: 0.000000, rmax: 0.000000, rest: 78192.681690
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.688456 rgyr_nscoil: 174.536764 rgyr: 173.552888 averagering: 29.126298 averagescoil: 67.092268
+step: 280000
+ quick energy: 335159.988267, bond: 231323.465975, ibond: 26808.913980, rgyr: 0.000000, rmax: 0.000000, rest: 77027.608312
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.590177 rgyr_nscoil: 174.738695 rgyr: 173.752818 averagering: 28.834458 averagescoil: 66.919696
+step: 282500
+ quick energy: 336903.331923, bond: 232138.866346, ibond: 26933.052094, rgyr: 0.000000, rmax: 0.000000, rest: 77831.413483
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.070116 rgyr_nscoil: 174.857742 rgyr: 173.873353 averagering: 29.580621 averagescoil: 66.991457
+step: 285000
+ quick energy: 339290.207491, bond: 234288.983608, ibond: 26507.055212, rgyr: 0.000000, rmax: 0.000000, rest: 78494.168671
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.106613 rgyr_nscoil: 175.045692 rgyr: 174.060073 averagering: 28.257099 averagescoil: 67.181558
+step: 287500
+ quick energy: 339031.529053, bond: 234325.691359, ibond: 26294.779390, rgyr: 0.000000, rmax: 0.000000, rest: 78411.058303
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.770060 rgyr_nscoil: 175.138510 rgyr: 174.150525 averagering: 28.783495 averagescoil: 67.183162
+step: 290000
+ quick energy: 339623.756730, bond: 235867.130633, ibond: 26093.011455, rgyr: 0.000000, rmax: 0.000000, rest: 77663.614641
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.534140 rgyr_nscoil: 175.059137 rgyr: 174.070582 averagering: 28.294471 averagescoil: 67.266793
+step: 292500
+ quick energy: 339201.750212, bond: 235759.339327, ibond: 26097.971632, rgyr: 0.000000, rmax: 0.000000, rest: 77344.439253
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.570682 rgyr_nscoil: 175.017084 rgyr: 174.024127 averagering: 27.599777 averagescoil: 67.263407
+step: 295000
+ quick energy: 341440.325806, bond: 237174.474246, ibond: 26223.927588, rgyr: 0.000000, rmax: 0.000000, rest: 78041.923971
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.781346 rgyr_nscoil: 174.925226 rgyr: 173.938897 averagering: 27.110670 averagescoil: 67.512645
+step: 297500
+ quick energy: 341102.448013, bond: 236766.999402, ibond: 26143.981948, rgyr: 0.000000, rmax: 0.000000, rest: 78191.466663
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.867128 rgyr_nscoil: 174.967237 rgyr: 173.976097 averagering: 26.757600 averagescoil: 67.612962
+saving conformation
+step: 300000
+ quick energy: 339724.780215, bond: 236181.864740, ibond: 26022.476837, rgyr: 0.000000, rmax: 0.000000, rest: 77520.438638
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.798522 rgyr_nscoil: 174.974743 rgyr: 173.983211 averagering: 25.775695 averagescoil: 67.596937
+step: 302500
+ quick energy: 340344.992513, bond: 236977.701170, ibond: 26175.163343, rgyr: 0.000000, rmax: 0.000000, rest: 77192.128000
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.061384 rgyr_nscoil: 175.097941 rgyr: 174.106773 averagering: 26.225339 averagescoil: 67.765949
+step: 305000
+ quick energy: 340752.027755, bond: 236795.393145, ibond: 26319.707744, rgyr: 0.000000, rmax: 0.000000, rest: 77636.926866
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.768159 rgyr_nscoil: 175.056432 rgyr: 174.064143 averagering: 25.753513 averagescoil: 67.754009
+step: 307500
+ quick energy: 339425.445982, bond: 236000.637911, ibond: 26338.274207, rgyr: 0.000000, rmax: 0.000000, rest: 77086.533865
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.008137 rgyr_nscoil: 175.120626 rgyr: 174.124176 averagering: 25.369046 averagescoil: 67.720955
+step: 310000
+ quick energy: 339259.903568, bond: 236764.207594, ibond: 26336.157295, rgyr: 0.000000, rmax: 0.000000, rest: 76159.538679
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.407616 rgyr_nscoil: 174.946757 rgyr: 173.953533 averagering: 26.388171 averagescoil: 67.896143
+step: 312500
+ quick energy: 339822.482548, bond: 236502.227183, ibond: 26155.346547, rgyr: 0.000000, rmax: 0.000000, rest: 77164.908818
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.121381 rgyr_nscoil: 174.960386 rgyr: 173.965675 averagering: 25.008344 averagescoil: 67.888952
+step: 315000
+ quick energy: 340580.230154, bond: 237019.705035, ibond: 26085.069004, rgyr: 0.000000, rmax: 0.000000, rest: 77475.456115
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.682372 rgyr_nscoil: 174.916691 rgyr: 173.925027 averagering: 26.453584 averagescoil: 67.934601
+step: 317500
+ quick energy: 340833.244527, bond: 237244.027067, ibond: 25952.174325, rgyr: 0.000000, rmax: 0.000000, rest: 77637.043136
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.890875 rgyr_nscoil: 175.041745 rgyr: 174.050164 averagering: 25.848870 averagescoil: 67.964787
+step: 320000
+ quick energy: 340149.048751, bond: 236655.722416, ibond: 26030.778413, rgyr: 0.000000, rmax: 0.000000, rest: 77462.547923
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.645157 rgyr_nscoil: 174.993132 rgyr: 174.000716 averagering: 25.946279 averagescoil: 67.876997
+step: 322500
+ quick energy: 339547.419365, bond: 236790.089185, ibond: 25909.843167, rgyr: 0.000000, rmax: 0.000000, rest: 76847.487014
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.347020 rgyr_nscoil: 175.106199 rgyr: 174.111492 averagering: 24.557634 averagescoil: 67.922758
+saving conformation
+step: 325000
+ quick energy: 337097.789660, bond: 234579.565144, ibond: 25754.972861, rgyr: 0.000000, rmax: 0.000000, rest: 76763.251655
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.587052 rgyr_nscoil: 175.271305 rgyr: 174.271713 averagering: 24.020925 averagescoil: 67.829045
+step: 327500
+ quick energy: 336557.759011, bond: 235222.689526, ibond: 25674.235406, rgyr: 0.000000, rmax: 0.000000, rest: 75660.834079
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.852931 rgyr_nscoil: 175.336958 rgyr: 174.338151 averagering: 24.246205 averagescoil: 67.799999
+step: 330000
+ quick energy: 336731.424759, bond: 235258.779306, ibond: 25500.858905, rgyr: 0.000000, rmax: 0.000000, rest: 75971.786548
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.720617 rgyr_nscoil: 175.340675 rgyr: 174.341206 averagering: 23.733410 averagescoil: 67.812992
+step: 332500
+ quick energy: 336430.305891, bond: 234790.758365, ibond: 25773.772339, rgyr: 0.000000, rmax: 0.000000, rest: 75865.775187
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.413422 rgyr_nscoil: 175.425651 rgyr: 174.424083 averagering: 23.150870 averagescoil: 67.854173
+step: 335000
+ quick energy: 335172.946005, bond: 233746.963186, ibond: 25469.340503, rgyr: 0.000000, rmax: 0.000000, rest: 75956.642316
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.963434 rgyr_nscoil: 175.219868 rgyr: 174.217693 averagering: 24.151593 averagescoil: 67.692966
+step: 337500
+ quick energy: 333129.249964, bond: 232441.832590, ibond: 25017.212792, rgyr: 0.000000, rmax: 0.000000, rest: 75670.204582
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.235919 rgyr_nscoil: 175.260518 rgyr: 174.254618 averagering: 24.229162 averagescoil: 67.701048
+step: 340000
+ quick energy: 329800.336655, bond: 229579.119057, ibond: 24999.832428, rgyr: 0.000000, rmax: 0.000000, rest: 75221.385171
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.096216 rgyr_nscoil: 175.404017 rgyr: 174.396402 averagering: 24.252997 averagescoil: 67.592650
+step: 342500
+ quick energy: 330634.971231, bond: 230133.421220, ibond: 24867.523362, rgyr: 0.000000, rmax: 0.000000, rest: 75634.026649
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.069716 rgyr_nscoil: 175.555904 rgyr: 174.547043 averagering: 24.648553 averagescoil: 67.737506
+step: 345000
+ quick energy: 327339.383590, bond: 227936.275677, ibond: 24827.784738, rgyr: 0.000000, rmax: 0.000000, rest: 74575.323176
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 61.101926 rgyr_nscoil: 175.612543 rgyr: 174.598792 averagering: 23.669596 averagescoil: 67.569404
+step: 347500
+ quick energy: 326466.141145, bond: 227088.874950, ibond: 24797.478454, rgyr: 0.000000, rmax: 0.000000, rest: 74579.787742
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 61.559263 rgyr_nscoil: 175.708102 rgyr: 174.695750 averagering: 23.012694 averagescoil: 67.563980
+saving conformation
+step: 350000
+ quick energy: 323665.253255, bond: 224458.198170, ibond: 24856.210751, rgyr: 0.000000, rmax: 0.000000, rest: 74350.844333
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.144225 rgyr_nscoil: 175.558048 rgyr: 174.549518 averagering: 23.399501 averagescoil: 67.361227
+step: 352500
+ quick energy: 322248.570869, bond: 222978.526944, ibond: 25000.600958, rgyr: 0.000000, rmax: 0.000000, rest: 74269.442968
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.808090 rgyr_nscoil: 175.565938 rgyr: 174.560462 averagering: 23.886654 averagescoil: 67.307968
+step: 355000
+ quick energy: 322272.043882, bond: 223404.823378, ibond: 24866.090072, rgyr: 0.000000, rmax: 0.000000, rest: 74001.130433
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.662465 rgyr_nscoil: 175.560845 rgyr: 174.554721 averagering: 24.495373 averagescoil: 67.421401
+step: 357500
+ quick energy: 320085.999082, bond: 221556.852776, ibond: 24564.336540, rgyr: 0.000000, rmax: 0.000000, rest: 73964.809765
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.203262 rgyr_nscoil: 175.684164 rgyr: 174.674977 averagering: 25.172182 averagescoil: 67.278352
+step: 360000
+ quick energy: 316971.426803, bond: 218015.788583, ibond: 24203.716397, rgyr: 0.000000, rmax: 0.000000, rest: 74751.921822
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 61.585418 rgyr_nscoil: 175.779623 rgyr: 174.766864 averagering: 24.959531 averagescoil: 67.053603
+step: 362500
+ quick energy: 313735.135624, bond: 214835.903698, ibond: 24004.982012, rgyr: 0.000000, rmax: 0.000000, rest: 74894.249914
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 61.888668 rgyr_nscoil: 175.782386 rgyr: 174.771010 averagering: 24.294779 averagescoil: 66.805676
+step: 365000
+ quick energy: 310413.742185, bond: 212300.096536, ibond: 23695.236486, rgyr: 0.000000, rmax: 0.000000, rest: 74418.409163
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.101306 rgyr_nscoil: 175.964708 rgyr: 174.952972 averagering: 23.676265 averagescoil: 66.745262
+step: 367500
+ quick energy: 309123.895320, bond: 211020.902451, ibond: 23844.162644, rgyr: 0.000000, rmax: 0.000000, rest: 74258.830225
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 62.080393 rgyr_nscoil: 176.166227 rgyr: 175.152904 averagering: 23.763856 averagescoil: 66.773051
+step: 370000
+ quick energy: 305156.822696, bond: 207999.612842, ibond: 23500.183941, rgyr: 0.000000, rmax: 0.000000, rest: 73657.025913
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 61.598370 rgyr_nscoil: 175.979349 rgyr: 174.965176 averagering: 22.771716 averagescoil: 66.549802
+step: 372500
+ quick energy: 303577.485712, bond: 207178.320252, ibond: 23080.097257, rgyr: 0.000000, rmax: 0.000000, rest: 73319.068203
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.104510 rgyr_nscoil: 176.031274 rgyr: 175.023745 averagering: 23.210081 averagescoil: 66.588239
+saving conformation
+step: 375000
+ quick energy: 300399.258538, bond: 204283.561014, ibond: 22952.633274, rgyr: 0.000000, rmax: 0.000000, rest: 73163.064250
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.129788 rgyr_nscoil: 175.942681 rgyr: 174.935929 averagering: 22.534733 averagescoil: 66.245719
+step: 377500
+ quick energy: 298958.653721, bond: 202562.629688, ibond: 22910.931065, rgyr: 0.000000, rmax: 0.000000, rest: 73485.092968
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 63.350199 rgyr_nscoil: 176.008381 rgyr: 175.002185 averagering: 24.490072 averagescoil: 66.123977
+step: 380000
+ quick energy: 295506.952487, bond: 199221.290507, ibond: 22823.580117, rgyr: 0.000000, rmax: 0.000000, rest: 73462.081863
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.318863 rgyr_nscoil: 175.936563 rgyr: 174.935530 averagering: 25.123325 averagescoil: 66.014181
+step: 382500
+ quick energy: 291760.904721, bond: 196100.530724, ibond: 22513.481936, rgyr: 0.000000, rmax: 0.000000, rest: 73146.892062
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.273290 rgyr_nscoil: 175.922568 rgyr: 174.921419 averagering: 24.316949 averagescoil: 65.760270
+step: 385000
+ quick energy: 289610.986271, bond: 194647.175898, ibond: 22325.532106, rgyr: 0.000000, rmax: 0.000000, rest: 72638.278266
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.699366 rgyr_nscoil: 176.087194 rgyr: 175.086875 averagering: 23.517293 averagescoil: 65.644004
+step: 387500
+ quick energy: 287519.814866, bond: 192088.062862, ibond: 22366.596614, rgyr: 0.000000, rmax: 0.000000, rest: 73065.155390
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.521588 rgyr_nscoil: 176.094867 rgyr: 175.093631 averagering: 24.658445 averagescoil: 65.530695
+step: 390000
+ quick energy: 284722.817587, bond: 189693.163157, ibond: 22045.205147, rgyr: 0.000000, rmax: 0.000000, rest: 72984.449283
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.616405 rgyr_nscoil: 175.984407 rgyr: 174.984454 averagering: 22.926071 averagescoil: 65.328462
+step: 392500
+ quick energy: 283591.093002, bond: 188773.502051, ibond: 21935.178572, rgyr: 0.000000, rmax: 0.000000, rest: 72882.412379
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.752279 rgyr_nscoil: 176.008500 rgyr: 175.009024 averagering: 23.098252 averagescoil: 65.313138
+step: 395000
+ quick energy: 282169.226080, bond: 187508.752821, ibond: 21794.790877, rgyr: 0.000000, rmax: 0.000000, rest: 72865.682382
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 64.917271 rgyr_nscoil: 176.132891 rgyr: 175.133287 averagering: 23.690047 averagescoil: 65.225360
+step: 397500
+ quick energy: 279762.447445, bond: 185211.369469, ibond: 21592.816257, rgyr: 0.000000, rmax: 0.000000, rest: 72958.261719
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.412246 rgyr_nscoil: 176.052176 rgyr: 175.060520 averagering: 24.136667 averagescoil: 64.992972
+saving conformation
+step: 400000
+ quick energy: 274979.390851, bond: 181088.449126, ibond: 21386.324263, rgyr: 0.000000, rmax: 0.000000, rest: 72504.617462
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 65.569424 rgyr_nscoil: 175.940572 rgyr: 174.945590 averagering: 22.907896 averagescoil: 64.740419
+step: 402500
+ quick energy: 271440.182696, bond: 178091.771729, ibond: 21169.687436, rgyr: 0.000000, rmax: 0.000000, rest: 72178.723531
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.113154 rgyr_nscoil: 175.870954 rgyr: 174.879174 averagering: 22.501700 averagescoil: 64.463017
+step: 405000
+ quick energy: 268359.281930, bond: 175450.727695, ibond: 20757.504562, rgyr: 0.000000, rmax: 0.000000, rest: 72151.049674
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 66.639208 rgyr_nscoil: 175.754231 rgyr: 174.765943 averagering: 22.447125 averagescoil: 64.163249
+step: 407500
+ quick energy: 266005.481640, bond: 173723.793580, ibond: 20471.166799, rgyr: 0.000000, rmax: 0.000000, rest: 71810.521261
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.022146 rgyr_nscoil: 175.726195 rgyr: 174.740037 averagering: 22.823424 averagescoil: 63.984159
+step: 410000
+ quick energy: 263431.505690, bond: 171246.228743, ibond: 20463.693291, rgyr: 0.000000, rmax: 0.000000, rest: 71721.583656
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 67.583189 rgyr_nscoil: 175.761353 rgyr: 174.777759 averagering: 21.952085 averagescoil: 63.871499
+step: 412500
+ quick energy: 260936.227689, bond: 169265.273718, ibond: 20201.345154, rgyr: 0.000000, rmax: 0.000000, rest: 71469.608816
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.023923 rgyr_nscoil: 175.778367 rgyr: 174.796884 averagering: 22.941436 averagescoil: 63.632896
+step: 415000
+ quick energy: 257400.693977, bond: 166253.918197, ibond: 19832.008779, rgyr: 0.000000, rmax: 0.000000, rest: 71314.767000
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.259228 rgyr_nscoil: 175.793517 rgyr: 174.813121 averagering: 22.797473 averagescoil: 63.451707
+step: 417500
+ quick energy: 254443.635330, bond: 163483.378222, ibond: 19670.111068, rgyr: 0.000000, rmax: 0.000000, rest: 71290.146040
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.953731 rgyr_nscoil: 176.095334 rgyr: 175.116220 averagering: 22.585386 averagescoil: 63.243499
+step: 420000
+ quick energy: 253043.739757, bond: 162279.151402, ibond: 19612.924109, rgyr: 0.000000, rmax: 0.000000, rest: 71151.664246
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.952303 rgyr_nscoil: 176.035361 rgyr: 175.056694 averagering: 22.059940 averagescoil: 63.129071
+step: 422500
+ quick energy: 250113.591655, bond: 159775.730404, ibond: 19338.094981, rgyr: 0.000000, rmax: 0.000000, rest: 70999.766271
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 68.573041 rgyr_nscoil: 175.976163 rgyr: 174.995993 averagering: 21.978235 averagescoil: 62.925751
+saving conformation
+step: 425000
+ quick energy: 247237.477957, bond: 157602.105307, ibond: 19204.010995, rgyr: 0.000000, rmax: 0.000000, rest: 70431.361655
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.511686 rgyr_nscoil: 175.930819 rgyr: 174.955844 averagering: 22.758444 averagescoil: 62.828990
+step: 427500
+ quick energy: 244289.997193, bond: 154841.263612, ibond: 19063.187630, rgyr: 0.000000, rmax: 0.000000, rest: 70385.545951
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.879212 rgyr_nscoil: 175.831211 rgyr: 174.858911 averagering: 22.687025 averagescoil: 62.610885
+step: 430000
+ quick energy: 240966.301305, bond: 151786.427044, ibond: 18936.661291, rgyr: 0.000000, rmax: 0.000000, rest: 70243.212971
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.918244 rgyr_nscoil: 175.676993 rgyr: 174.706072 averagering: 22.027536 averagescoil: 62.366255
+step: 432500
+ quick energy: 239210.323815, bond: 150491.894107, ibond: 18779.568510, rgyr: 0.000000, rmax: 0.000000, rest: 69938.861199
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.600200 rgyr_nscoil: 175.716447 rgyr: 174.743562 averagering: 22.413645 averagescoil: 62.374182
+step: 435000
+ quick energy: 236340.820563, bond: 147930.939383, ibond: 18590.716254, rgyr: 0.000000, rmax: 0.000000, rest: 69819.164925
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 69.979847 rgyr_nscoil: 175.699044 rgyr: 174.728277 averagering: 23.269201 averagescoil: 62.110581
+step: 437500
+ quick energy: 234648.917841, bond: 146566.539646, ibond: 18485.900659, rgyr: 0.000000, rmax: 0.000000, rest: 69596.477537
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 70.543039 rgyr_nscoil: 175.660148 rgyr: 174.692645 averagering: 23.242697 averagescoil: 62.064099
+step: 440000
+ quick energy: 232603.782534, bond: 145110.031664, ibond: 18143.281426, rgyr: 0.000000, rmax: 0.000000, rest: 69350.469444
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.336933 rgyr_nscoil: 175.913581 rgyr: 174.948360 averagering: 23.540020 averagescoil: 61.822620
+step: 442500
+ quick energy: 230419.828174, bond: 143249.691736, ibond: 17923.388206, rgyr: 0.000000, rmax: 0.000000, rest: 69246.748232
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 71.862176 rgyr_nscoil: 175.881527 rgyr: 174.919368 averagering: 23.448125 averagescoil: 61.711859
+step: 445000
+ quick energy: 227976.196112, bond: 140816.859154, ibond: 17826.590641, rgyr: 0.000000, rmax: 0.000000, rest: 69332.746318
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.948275 rgyr_nscoil: 175.888508 rgyr: 174.932183 averagering: 22.841191 averagescoil: 61.582944
+step: 447500
+ quick energy: 224137.381792, bond: 137645.730805, ibond: 17497.864183, rgyr: 0.000000, rmax: 0.000000, rest: 68993.786805
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.605307 rgyr_nscoil: 175.631373 rgyr: 174.675158 averagering: 22.295488 averagescoil: 61.288290
+saving conformation
+step: 450000
+ quick energy: 220653.406508, bond: 134694.034989, ibond: 17310.563186, rgyr: 0.000000, rmax: 0.000000, rest: 68648.808333
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.719345 rgyr_nscoil: 175.600325 rgyr: 174.644970 averagering: 22.067484 averagescoil: 60.944763
+step: 452500
+ quick energy: 218511.485599, bond: 132851.838950, ibond: 17182.074974, rgyr: 0.000000, rmax: 0.000000, rest: 68477.571675
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.186473 rgyr_nscoil: 175.655997 rgyr: 174.702768 averagering: 22.824419 averagescoil: 60.864998
+step: 455000
+ quick energy: 215493.680109, bond: 130523.896162, ibond: 16920.474579, rgyr: 0.000000, rmax: 0.000000, rest: 68049.309368
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.425661 rgyr_nscoil: 175.570547 rgyr: 174.619293 averagering: 22.933405 averagescoil: 60.623618
+step: 457500
+ quick energy: 212327.514590, bond: 127950.340821, ibond: 16549.453820, rgyr: 0.000000, rmax: 0.000000, rest: 67827.719949
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.394400 rgyr_nscoil: 175.472383 rgyr: 174.521715 averagering: 21.998697 averagescoil: 60.337679
+step: 460000
+ quick energy: 210261.346191, bond: 126178.201512, ibond: 16406.710812, rgyr: 0.000000, rmax: 0.000000, rest: 67676.433866
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.524293 rgyr_nscoil: 175.463676 rgyr: 174.513791 averagering: 21.870917 averagescoil: 60.106897
+step: 462500
+ quick energy: 207566.633353, bond: 123956.807739, ibond: 16093.927600, rgyr: 0.000000, rmax: 0.000000, rest: 67515.898014
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.886882 rgyr_nscoil: 175.435907 rgyr: 174.488242 averagering: 22.072865 averagescoil: 59.839044
+step: 465000
+ quick energy: 203992.498243, bond: 120285.401313, ibond: 16107.225747, rgyr: 0.000000, rmax: 0.000000, rest: 67599.871183
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.673759 rgyr_nscoil: 175.495387 rgyr: 174.546082 averagering: 21.769080 averagescoil: 59.601762
+step: 467500
+ quick energy: 201320.907039, bond: 118449.607020, ibond: 15726.454423, rgyr: 0.000000, rmax: 0.000000, rest: 67144.845597
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 72.884014 rgyr_nscoil: 175.470433 rgyr: 174.516978 averagering: 21.557276 averagescoil: 59.393059
+step: 470000
+ quick energy: 198123.188604, bond: 115797.857982, ibond: 15598.448569, rgyr: 0.000000, rmax: 0.000000, rest: 66726.882054
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.274064 rgyr_nscoil: 175.229795 rgyr: 174.280337 averagering: 22.383889 averagescoil: 59.181981
+step: 472500
+ quick energy: 194811.400425, bond: 113121.883431, ibond: 15270.282044, rgyr: 0.000000, rmax: 0.000000, rest: 66419.234950
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.017426 rgyr_nscoil: 175.169933 rgyr: 174.219525 averagering: 22.151971 averagescoil: 58.904959
+saving conformation
+step: 475000
+ quick energy: 191990.051220, bond: 110592.856005, ibond: 15076.385857, rgyr: 0.000000, rmax: 0.000000, rest: 66320.809359
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.494010 rgyr_nscoil: 175.245678 rgyr: 174.297310 averagering: 22.726560 averagescoil: 58.695949
+step: 477500
+ quick energy: 189076.644539, bond: 108150.297697, ibond: 14816.331275, rgyr: 0.000000, rmax: 0.000000, rest: 66110.015567
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.664826 rgyr_nscoil: 175.190811 rgyr: 174.243811 averagering: 22.535151 averagescoil: 58.404617
+step: 480000
+ quick energy: 186202.311783, bond: 105508.773464, ibond: 14689.725073, rgyr: 0.000000, rmax: 0.000000, rest: 66003.813246
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 74.265835 rgyr_nscoil: 175.099130 rgyr: 174.156183 averagering: 22.432050 averagescoil: 58.167483
+step: 482500
+ quick energy: 184065.200224, bond: 103701.496007, ibond: 14574.299480, rgyr: 0.000000, rmax: 0.000000, rest: 65789.404738
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 73.840810 rgyr_nscoil: 175.103483 rgyr: 174.158135 averagering: 22.820327 averagescoil: 57.911615
+step: 485000
+ quick energy: 180740.798771, bond: 101187.855863, ibond: 14330.978389, rgyr: 0.000000, rmax: 0.000000, rest: 65221.964519
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.357614 rgyr_nscoil: 175.056282 rgyr: 174.119811 averagering: 21.775250 averagescoil: 57.638277
+step: 487500
+ quick energy: 178329.170446, bond: 98894.524134, ibond: 14311.299009, rgyr: 0.000000, rmax: 0.000000, rest: 65123.347304
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.141605 rgyr_nscoil: 175.099051 rgyr: 174.161025 averagering: 22.025369 averagescoil: 57.412287
+step: 490000
+ quick energy: 175986.374161, bond: 96931.104350, ibond: 14295.383534, rgyr: 0.000000, rmax: 0.000000, rest: 64759.886277
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.102628 rgyr_nscoil: 175.082574 rgyr: 174.144455 averagering: 22.934887 averagescoil: 57.252251
+step: 492500
+ quick energy: 173421.687174, bond: 94824.795752, ibond: 13966.388773, rgyr: 0.000000, rmax: 0.000000, rest: 64630.502650
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.200556 rgyr_nscoil: 175.030768 rgyr: 174.093606 averagering: 21.968753 averagescoil: 56.995796
+step: 495000
+ quick energy: 171034.897924, bond: 92807.333818, ibond: 13684.279409, rgyr: 0.000000, rmax: 0.000000, rest: 64543.284697
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.937004 rgyr_nscoil: 175.129212 rgyr: 174.195468 averagering: 22.269018 averagescoil: 56.785148
+step: 497500
+ quick energy: 168532.877957, bond: 90581.632803, ibond: 13571.413080, rgyr: 0.000000, rmax: 0.000000, rest: 64379.832075
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.842054 rgyr_nscoil: 175.140331 rgyr: 174.205959 averagering: 21.904521 averagescoil: 56.533671
+saving conformation
+step: 500000
+ quick energy: 166380.730961, bond: 89013.675619, ibond: 13164.928657, rgyr: 0.000000, rmax: 0.000000, rest: 64202.126685
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
+rgyr_nring: 75.449176 rgyr_nscoil: 175.023359 rgyr: 174.087664 averagering: 21.513127 averagescoil: 56.276462
+ quick energy: 166382.644252, bond: 89009.623534, ibond: 13170.894033, rgyr: 0.000000, rmax: 0.000000, rest: 64202.126685
+ tgetQuickEnergy // Branching count: 650, percentage: 21.566025, of: 3014 beads, energy: 0.000000
