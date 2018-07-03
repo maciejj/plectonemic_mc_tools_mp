@@ -25,9 +25,6 @@ int num_threads=8;
 int check=0;
 
 int mbps=816394;                      // number of basepairs
-int totalbpsthreshold=1000;           // minimum number of basepairs per domain
-
-
 int ndomain=400;                       // number of domains: 50-400
 
 double rfac=0.879;
@@ -100,10 +97,8 @@ class Bond;
 class Bead {
   public:
     Vector pos;
-    int type;  // 1: ring, 2: branch
+    int type;  // 1: ring, 2: branch, 3: long branch
     int index;
-   
-    int totalchain; // total branches per domain bead 
 
     double radius;
    
@@ -111,14 +106,13 @@ class Bead {
     double rgyr;
 
     Bead(Vector p, int t, int i, double r) :
-      pos(p), type(t), index(i), radius(r), totalchain(0), rgyr(0.0), rgyrener(0.0) {}
+      pos(p), type(t), index(i), radius(r), rgyr(0.0), rgyrener(0.0) {}
 
     Bead& operator=(const Bead& from) {
       pos=from.pos;
       type=from.type;
       index=from.index;
       radius=from.radius;
-      totalchain=from.totalchain;
       rgyr=from.rgyr;
       rgyrener=from.rgyrener;
       return (*this); 
@@ -1284,9 +1278,7 @@ int main(int argc, char **argv) {
   nchain=(int)(totalchaincgbeads/cgbeadperchain); //15063 whole chains + 0.3 chain
   int nremainderchain=nchain%ndomain; // 63
   int chainsperdomain=(nchain-nremainderchain)/ndomain; // 75
-  fprintf(stderr,"ndomain: %d, chainlength: %d, nchain: %d, chainsperdomain: %d\n",ndomain,int(setchainlen),nchain,chainsperdomain);
-//  exit(1);
-  
+
   beadforhalfchain=totalcgbeads-(nchain*cgbeadperchain+ndomain*cgbeadperring);
   halfchainlen=(double)(beadforhalfchain*setchainlen/cgbeadperchain);
   ringbead=new Bead*[ndomain];
@@ -1399,7 +1391,6 @@ int main(int argc, char **argv) {
         } 
       }
       chainbond[jnx]->domain=i;
-      ringbead[i]->totalchain+=1;
     }
     connectto.clear();
   }
@@ -1426,16 +1417,9 @@ int main(int argc, char **argv) {
     }
     bd->add(chainbond[chainsperdomain*ndomain+i]);
     chainbond[chainsperdomain*ndomain+i]->domain=bd->domain; 
-    ringbead[bd->domain]->totalchain+=1;  
+      
     connectforleft.erase (connectforleft.begin()+inx); 
   }
-  
-//  for (int i=0; i<ndomain; i++) {
-//    Bead *b=ringbead[i];
-//    fprintf(stderr,"domain %d has %d chains\n",i,b->totalchain);
-//  }
-  
-//  exit(1);
 
   int *bpmap=new int[maxcgbp];
   if (nrest>0) mapBasePairs(bpmap,ringbond,ndomain,chainbond,nchain,ringbead,chainbead);
@@ -1527,15 +1511,8 @@ int main(int argc, char **argv) {
       int nconnectto=0;
       for (int i=0; i<nchain; i++) {
         if (chainbond[i]->nlink==0) {
-           double totalbpsperdomain;
-           totalbpsperdomain=(ringbead[chainbond[i]->domain]->totalchain-1)*setchainlen*bpsscoil;
-           if (totalbpsperdomain>=totalbpsthreshold) {             
-//             fprintf(stderr,"domain %d totalchain %d totalbpsperdomain %d\n",chainbond[i]->domain,ringbead[chainbond[i]->domain]->totalchain,int(totalbpsperdomain));
-             takefrom[ntakefrom++]=chainbond[i];
-           } else {
-             fprintf(stderr,"Warning: totalbps for domain %d is %d.\n",chainbond[i]->domain,int((ringbead[chainbond[i]->domain]->totalchain)*setchainlen*bpsscoil));
-           }
-           connectto[nconnectto++]=chainbond[i];
+          takefrom[ntakefrom++]=chainbond[i];
+          connectto[nconnectto++]=chainbond[i]; 
         } else if (chainbond[i]->nlink==1) {
           connectto[nconnectto++]=chainbond[i]; 
         }
@@ -1587,11 +1564,10 @@ int main(int argc, char **argv) {
       lastenergy+=deltaE;
 //      fprintf(stderr,"%d accepted: %10.5lf temp: %10.5lf\n",mctrial,lastenergy,kT); //MJ too much printing
 
-      if (bd!=0) {
-        ringbead[bdp->domain]->totalchain-=1;
-        ringbead[bdt->domain]->totalchain+=1;
+//MJ too much printing
+//      if (bd!=0) {
 //        fprintf(stderr," branch move successful\n");
-    }
+//    }
 //      if (doffset!=0) {
 //        fprintf(stderr," new basemapoffset: %d\n",basemapoffset);
 //      }
